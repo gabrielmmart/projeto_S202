@@ -19,7 +19,7 @@ app.add_middleware(
 )
 
 
-app.include_router(card)
+app.include_router(card) # Mount a router on the app
 app.include_router(mana)
 app.include_router(skill)
 app.include_router(typeCard)
