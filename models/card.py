@@ -11,6 +11,7 @@ class Card(BaseModel):
     raridade: str
     resistencia: str
     subtipos: object
+    tipo: str
     texto_ilustrativo: str
 
 class Mana(BaseModel):
